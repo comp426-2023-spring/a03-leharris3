@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 import minimist from 'minimist';
-import { rps } from "../lib/rps.js";
+import { rpsls } from "../lib/rpsls.js";
 const args = process.argv.slice(2);
-rps(args);
+rpsls(args);
